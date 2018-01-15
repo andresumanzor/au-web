@@ -7,7 +7,7 @@ body {
 #infoBox {
     height: 150px;
     width: 300px;
-    background: black;
+    background: #fff;
     position: fixed;
     top: 50%;
     left: 50%;
