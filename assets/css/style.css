@@ -2,6 +2,10 @@ body {
     font: normal 75% Arial, Helvetica, sans-serif;
 }
 
+c {
+
+}
+
 
 /* ---- particles.js and container ---- */
 
@@ -17,4 +21,5 @@ body {
     opacity: 0.9;
     padding: 2em;
     border: #ccc 2px solid;
+    color:white;
 }
