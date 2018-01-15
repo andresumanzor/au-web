@@ -1,0 +1,53 @@
+html,body{
+	width:100%;
+	height:100%;
+	background:#111;
+}
+
+body {
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+#particles-js{
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  background-image: url('');
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+}
+
+/* ---- container ---- */
+.content{
+  height: 180px;
+  width: 300px;
+  background: #fff;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-top: -90px;
+  margin-left: -150px;
+  opacity: 0.9;
+  padding: 2em;
+  border: #ccc 2px solid;
+  color:black;
+}
+
+button {
+      position: relative;
+      outline: none;
+      border: none;
+      background-color:white;
+  }
+
+p{
+
+}
+
+p1{
+  font-size: 8px;
+  text-shadow: 1px 1px grey;
+}

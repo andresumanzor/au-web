@@ -1,28 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
+    <link rel="stylesheet" media="screen" href="/assets/css/style.css">
+    <link rel="stylesheet" href="assets/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Andrés Umanzor</title>
-    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" media="screen" href="/assets/css/style.css">
 </head>
 
 <body>
     <div id="particles-js">
         <div class="content">
-            <label>Andrés Umanzor</label>
+            <p>Andrés Umanzor</p>
+            <p1>||Dominate your mind and control the world||</p1>
             <br>
-            <label>||Open your mind and dominate the world||</label>
+            <button class="fa fa-github" aria-hidden="true" title="Github" id="button-github"></button>
+            <button class="fa fa-envelope" aria-hidden="true" title="Email" id="button-email"></button>
         </div>
     </div>
-    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
-    <script>
-    particlesJS.load('particles-js', 'particles.json', function() {
-        console.log('particles.json loaded...');
-    });
-    </script>
 </body>
-
+<script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+<script>
+particlesJS.load('particles-js', 'particles.json');
+</script>
+<script src="index.js"></script>
 </html>
