@@ -22,7 +22,7 @@ body {
 
 /* ---- container ---- */
 .content{
-  height: 180px;
+  height: 232px;
   width: 300px;
   background: #fff;
   position: fixed;
@@ -50,4 +50,8 @@ p{
 p1{
   font-size: 8px;
   text-shadow: 1px 1px grey;
+}
+
+.sharethis-inline-follow-buttons {
+  font-size: 10px !important;
 }
